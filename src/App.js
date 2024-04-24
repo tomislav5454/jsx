@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
 
+
+
+
+
+
+
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const nesto = ["JavaScript"];
+const nesto2 = "React";
+
+  return ( <div className="App">
+    <p>MORAMO PUNO VJEZBATI</p>
+    <p> idemo vjezbati: {nesto}</p>
+    <p>Mojo omiljeni programi su: {nesto.map((i) => i + " ")} i {nesto2}</p>
+  </div>
+  )
 }
 
 export default App;
